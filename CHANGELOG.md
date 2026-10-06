@@ -1,7 +1,8 @@
 ## 5.13.0 (Unreleased)
 
-FEATURES: 
+FEATURES:
 
+* Add support for PKI BYOK CA migration with `vault_pki_secret_backend_export_key` and `vault_pki_secret_backend_wrapped_key_import` resources, and `vault_pki_secret_backend_ca_key_export` ephemeral resource.
 * **New Resources**: Add support for TPM Auth backend with `vault_identity_tpm`, `vault_identity_tpm_group`, `vault_tpm_auth_backend_config`, `vault_tpm_auth_backend_role` resources. Requires Vault Enterprise 2.2.0 or later. ([#2979](https://github.com/hashicorp/terraform-provider-vault/pull/2979))
 
 IMPROVEMENTS:
